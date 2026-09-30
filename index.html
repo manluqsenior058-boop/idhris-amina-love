@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idhris ❤️ Amina</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Georgia, serif;
+            background: linear-gradient(135deg, #2b0015, #720026, #17000d);
+            color: white;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px 20px 60px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 5px;
+            animation: glow 2s infinite alternate;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin-top: 5px;
+        }
+
+        .intro {
+            font-size: 20px;
+            line-height: 1.8;
+            margin: 25px auto;
+            max-width: 700px;
+        }
+
+        .heart {
+            font-size: 45px;
+            animation: heartbeat 1.4s infinite;
+        }
+
+        .photos {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin: 35px 0;
+        }
+
+        .photo-card {
+            width: 280px;
+        }
+
+        .photo-card img {
+            width: 100%;
+            height: 330px;
+            object-fit: cover;
+            border-radius: 25px;
+            border: 4px solid white;
+            box-shadow: 0 0 25px rgba(255,255,255,0.4);
+        }
+
+        .photo-card h3 {
+            font-size: 24px;
+        }
+
+        .message {
+            background: rgba(255,255,255,0.10);
+            padding: 30px;
+            margin: 30px auto;
+            border-radius: 25px;
+            max-width: 750px;
+            line-height: 2;
+            font-size: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        }
+
+        .special {
+            font-size: 25px;
+            line-height: 1.8;
+        }
+
+        video {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 25px rgba(255,255,255,0.3);
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 20px;
+        }
+
+        .floating-heart {
+            position: fixed;
+            bottom: -50px;
+            font-size: 25px;
+            animation: floatUp 7s linear infinite;
+            pointer-events: none;
+        }
+
+        .h1 { left: 10%; animation-delay: 0s; }
+        .h2 { left: 30%; animation-delay: 2s; }
+        .h3 { left: 55%; animation-delay: 4s; }
+        .h4 { left: 80%; animation-delay: 1s; }
+
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.25);
+            }
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px white;
+            }
+            to {
+                text-shadow: 0 0 30px #ff69b4;
+            }
+        }
+
+        @keyframes floatUp {
+            from {
+                transform: translateY(0);
+                opacity: 0;
+            }
+            20% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-110vh);
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 38px;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+
+            .intro,
+            .message {
+                font-size: 18px;
+            }
+
+            .photo-card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="floating-heart h1">❤️</div>
+    <div class="floating-heart h2">💕</div>
+    <div class="floating-heart h3">💖</div>
+    <div class="floating-heart h4">💗</div>
+
+    <div class="container">
+
+        <div class="heart">❤️</div>
+
+        <h1>Idhris ❤️ Amina</h1>
+
+        <h2>Hadithi ya Mioyo Miwili 💕</h2>
+
+        <p class="intro">
+            Amina wangu, kuna watu ambao huingia katika maisha yetu
+            bila kutarajia, lakini uwepo wao hubadilisha kila kitu. 
+            Wewe ni mmoja wao. ❤️
+        </p>
+
+        <div class="photos">
+
+            <div class="photo-card">
+                <img src="Idhris.jpeg" alt="Idhris">
+                <h3>Idhris ❤️</h3>
+            </div>
+
+            <div class="photo-card">
+                <img src="Amina.jpg" alt="Amina">
+                <h3>Amina 💕</h3>
+            </div>
+
+        </div>
+
+        <div class="message">
+
+            <p>
+                🌹 Amina wangu, wewe ni furaha ambayo moyo wangu
+                hauchoki kuitafuta.
+            </p>
+
+            <p>
+                Kila ninapokuwaza, tabasamu hujitokeza usoni mwangu.
+                Kuna kitu cha kipekee ndani yako ambacho siwezi
+                kukielezea kwa maneno machache. 💖
+            </p>
+
+            <p>
+                Umenifanya niamini kwamba upendo wa kweli hauhitaji
+                ukamilifu. Unahitaji mioyo miwili inayothamini,
+                kusikilizana na kushikamana. 🥰
+            </p>
+
+        </div>
+
+        <div class="message special">
+
+            <p>
+                💕 Amina, wewe si mtu wa kawaida katika maisha yangu.
+            </p>
+
+            <p>
+                Wewe ni kumbukumbu ninayotabasamu nikifikiria,
+                ni jina ambalo moyo wangu unapenda kulitamka,
+                na ni mtu ambaye uwepo wake una maana kubwa kwangu. ❤️
+            </p>
+
+            <p>
+                Natamani kila siku iwe nafasi nyingine ya kukuonyesha
+                jinsi ulivyo wa thamani kwangu. 🌹
+            </p>
+
+        </div>
+
+        <div class="message">
+
+            <h2>🎵 Wimbo Wetu ❤️</h2>
+
+            <p>
+                Wakati maneno yanaposhindwa kueleza hisia,
+                acha muziki useme kwa niaba yetu. 💕
+            </p>
+
+            <video controls autoplay loop>
+                <source src="main.mp4" type="video/mp4">
+                Browser yako haiwezi kucheza video hii.
+            </video>
+
+        </div>
+
+        <div class="message special">
+
+            <h2>💌 Kwa Amina</h2>
+
+            <p>
+                Amina, kama ningekuwa na nafasi ya kuchagua tena,
+                ningekuchagua wewe bila kusita. ❤️
+            </p>
+
+            <p>
+                Maisha yanaweza kuwa na siku nzuri na siku ngumu,
+                lakini natamani kumbukumbu zetu ziwe sehemu ya
+                safari yangu. 💖
+            </p>
+
+            <p>
+                Asante kwa kuwa wewe. 🥰
+            </p>
+
+            <p>
+                <strong>
+                    Kwa upendo wote,<br>
+                    Idhris ❤️
+                </strong>
+            </p>
+
+        </div>
+
+        <div class="footer">
+            ❤️ Idhris & Amina — Moyo mmoja, upendo mmoja 💕
+        </div>
+
+    </div>
+
+</body>
+</html>
